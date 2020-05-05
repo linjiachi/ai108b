@@ -26,7 +26,7 @@ def VP():
     return Wish() + ' ' + V() + ' ' + Thing()
 
 def Thing():
-    return SHOP() + ' ' + DRINK()
+    return SHOP() + '的' + DRINK()
 
 def SHOP():
     return r.choice(shop)
