@@ -23,7 +23,7 @@ def dfs(array, start, goal):
     step = 0
 
     while stack:
-        step += 1
+        step += 1 
         print("\nStep: ", step)
         
         cNode = stack.pop()
@@ -62,6 +62,6 @@ printMap(nmap)
 
 print("-----------START-------------")
 
-start = np.array([1, 0])
-goal = np.array([9, 8])
+start = np.array([1, 0]) # 起始點
+goal = np.array([9, 8]) # 終點
 dfs(map, start, goal)
