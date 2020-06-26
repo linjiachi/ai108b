@@ -1,6 +1,13 @@
 from math import *
 
-step = 0.0001
+#step = 0.00001
+#step = 0.0001
+#step = 0.001
+#step = 0.01
+#step = 0.1
+step = 1
+
+
 def df(f, x, h=step):
     return (f(x+h)-f(x-h))/(2*h)
 
